@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Footer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        *{
+            font-family: sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            height: 100vh;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .footer{
+            height: 400px;
+            width: 1000px;
+            background: #282e3c;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+        .footer_collection{
+            display: flex;
+            list-style-type: none;
+
+        }
+        a{
+            text-align: white;
+            margin: 0px 18px;
+            font-size: 22px;
+        }
+        .icon_collection{
+            display: flex;
+            list-style-type: none;
+            margin-top: 60px;
+            width: 50%;
+            justify-content: space-between;
+        }
+        .icon_item{
+            font-size:30px ;
+        }
+        .p{
+            font-size: 18px;
+            color: gray;
+            margin-top: 10px;
+        }
+
+    </style>
+</head>
+
+
+<body>
+    <div class="footer">
+        <ul class="footer_collection">
+            <li><a style="color: white; text-decoration: none;" href="">About</a></li>
+            <li><a style="color: white; text-decoration: none;" href="">Blog</a></li>
+            <li><a style="color: white; text-decoration: none;" href="">Accessibility</a></li>
+            <li><a style="color: white; text-decoration: none;" href="">Jobs</a></li>
+            <li><a style="color: white; text-decoration: none;" href="">Page</a></li>
+            <li><a style="color: white; text-decoration: none;" href="">Partners</a></li>
+        </ul>
+        <ul class="icon_collection">
+            <li class="icon_item"><i style="color: gray;" class="fa-solid fa-basketball"></i></li>
+            <li class="icon_item"><i style="color: gray;" class="fa-brands fa-instagram"></i></li>
+            <li class="icon_item"><i  style="color: gray;"class="fa-brands fa-facebook"></i></li>
+            <li class="icon_item"><i style="color: gray;" class="fa-brands fa-youtube"></i></li>
+            <li class="icon_item"><i style="color: gray;" class="fa-brands fa-twitter"></i></li>
+        </ul>
+        <p class="p">&copy;Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, laboriosam!</p>
+    </div>
+</body>
+</html>
